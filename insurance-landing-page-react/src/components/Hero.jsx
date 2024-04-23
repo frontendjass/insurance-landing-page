@@ -21,7 +21,7 @@ export default function Hero() {
         </p>
         <button className='text-slate-100 border p-3'>View Plans</button>
       </div>
-        <img src={mobileRight} alt='Pattern' className='absolute z-[-1] bottom-0 right-0'/>
+        <img src={mobileRight} alt='Pattern' className='absolute z-[-1] -bottom-48 right-0'/>
       </div>
     </section>
   );
