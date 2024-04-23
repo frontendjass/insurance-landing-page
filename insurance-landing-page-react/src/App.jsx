@@ -3,6 +3,7 @@ import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import LearnMore from './components/LearnMore';
 import FooterNav from './components/FooterNav';
+import './index.css';
 
 function App() {
   return (
