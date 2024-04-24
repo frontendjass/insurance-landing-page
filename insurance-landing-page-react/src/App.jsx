@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import LearnMore from './components/LearnMore';
 import FooterNav from './components/FooterNav';
 import './index.css';
+import Socials from './components/Socials';
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
         <KeyFeatures />
         <LearnMore />
       </main>
-      <footer>
+      <footer className='bg-stone-50'>
+        <Socials />
         <FooterNav
           title='Our company'
           links={['How we work', 'Why Insure?', 'View plans']}
