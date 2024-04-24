@@ -1,11 +1,11 @@
 export default function FooterNav({ title, links}) {
     return (
-        <section>
-            <div>
-                <h4>{title}</h4>
-                <ul>
+        <section className="my-4">
+            <div className="flex flex-col justify-center items-center ">
+                <h4 className="mb-6 text-slate-400 font-bold uppercase">{title}</h4>
+                <ul className="">
                     {links.map((link, index) => (
-                        <li key={index}><a href="#">{link}</a></li>
+                        <li key={index} className="text-center text-slate-600 font-bold uppercase"><a href="#">{link}</a></li>
                     ))}
                 </ul>
             </div>
